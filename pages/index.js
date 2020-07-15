@@ -6,14 +6,15 @@ const Home = () => (
     <head>
             <title>Zenta's Abode</title>
     </head>
-    <div className='logo'>
-        <img src='logo.png' />
-        <style jsx>{`
-      .logo img{
+
+    <img src='logo.png' />
+  
+    <style jsx>{`
+      img {
         max-width: 100px;
       }
     `}</style>
-    </div>
+  
     <h1>Zenta</h1>
     <h3>Something awfully boring is brewing here, don't stay tuned!</h3>
 
