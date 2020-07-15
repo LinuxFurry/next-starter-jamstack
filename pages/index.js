@@ -9,7 +9,7 @@ const Home = () => (
     <br>
     <h3>Feel free to contact me at admin@zenta.page</h3>
 
-    <style jsx>{`
+    <style jsx>{'
       :global(html,body) {
         margin: 0;
         padding: 0;
@@ -40,7 +40,7 @@ const Home = () => (
       .content {
         padding: 0 32px;
       }
-    }</style>
+    '}</style>
   </div>
 )
 
