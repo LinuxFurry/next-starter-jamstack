@@ -6,7 +6,14 @@ const Home = () => (
     <head>
             <title>Zenta's Abode</title>
     </head>
-    <img class='logo' src='logo.png' />
+    <div className='logo'>
+        <img src='logo.png' />
+        <style jsx>{`
+      .logo img{
+        max-width: 100px;
+      }
+    `}</style>
+    </div>
     <h1>Zenta</h1>
     <h3>Something awfully boring is brewing here, don't stay tuned!</h3>
 
@@ -38,9 +45,6 @@ const Home = () => (
         text-decoration: none;
       }
 
-      .logo {
-        max-width:100px !important;
-      }
 
       .content {
         padding: 0 32px;
