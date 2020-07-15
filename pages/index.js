@@ -11,7 +11,7 @@ const Home = () => (
   
     <style jsx>{`
       img {
-        max-width: 100px;
+        max-width: 183px;
       }
     `}</style>
   
