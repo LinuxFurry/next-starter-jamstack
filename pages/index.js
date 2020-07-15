@@ -3,7 +3,7 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>Zenta's Abode</h1>
+    <h1>Zentas Abode</h1>
 
     <h3>Something boring is brewing here.</h3>
     <br>
@@ -40,7 +40,7 @@ const Home = () => (
       .content {
         padding: 0 32px;
       }
-    `}</style>
+    }</style>
   </div>
 )
 
