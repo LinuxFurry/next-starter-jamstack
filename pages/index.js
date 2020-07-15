@@ -39,7 +39,7 @@ const Home = () => (
       }
 
       .logo {
-        max-width:100px;
+        max-width:100px !important;
       }
 
       .content {
