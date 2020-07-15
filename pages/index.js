@@ -3,13 +3,11 @@ import Head from 'next/head'
 
 const Home = () => (
   <div>
-    <h1>Zentas Abode</h1>
+    <h1>Next.js on the [JAMstack](https://jamstack.org)</h1>
 
-    <h3>Something boring is brewing here.</h3>
-    <br>
-    <h3>Feel free to contact me at admin@zenta.page</h3>
+    <h3>Hooray 🎉 - you've built this with <a href="https://nextjs.org">Next.js</a>!</h3>
 
-    <style jsx>{'
+    <style jsx>{`
       :global(html,body) {
         margin: 0;
         padding: 0;
@@ -40,7 +38,7 @@ const Home = () => (
       .content {
         padding: 0 32px;
       }
-    '}</style>
+    `}</style>
   </div>
 )
 
