@@ -7,7 +7,7 @@ const Home = () => (
             <title>Zenta's Abode</title>
     </head>
     <h1>Zenta</h1>
-    <img src='logo.png'>
+    <img src="/logo.png" />
     <h3>Something awfully boring is brewing here, don't stay tuned!</h3>
 
     <style jsx>{`
